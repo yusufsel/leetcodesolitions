@@ -1,6 +1,7 @@
 package ysf;
 
 import ysf.solituon.DecodeWays;
+import ysf.solituon.UniquePaths;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -12,12 +13,8 @@ public class Main {
 
         LocalDateTime t1 = LocalDateTime.now();
 
-        System.out.println(new DecodeWays().numDecodings("11106"));
+        System.out.println(new UniquePaths().uniquePaths(2,3));
 
-
-        // 11106
-        // 1 1106
-        // 11 106
 
         System.out.println(ChronoUnit.SECONDS.between(t1, LocalDateTime.now()));
 
