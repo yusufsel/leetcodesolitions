@@ -1,6 +1,7 @@
 package ysf;
 
 import ysf.solituon.DecodeWays;
+import ysf.solituon.JumpGame;
 import ysf.solituon.UniquePaths;
 
 import java.time.LocalDateTime;
@@ -13,7 +14,7 @@ public class Main {
 
         LocalDateTime t1 = LocalDateTime.now();
 
-        System.out.println(new UniquePaths().uniquePaths(2,3));
+        System.out.println(new JumpGame().canJump(new int[]{3,2,1,0,4}));
 
 
         System.out.println(ChronoUnit.SECONDS.between(t1, LocalDateTime.now()));
