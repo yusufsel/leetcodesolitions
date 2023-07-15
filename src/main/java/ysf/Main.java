@@ -1,8 +1,6 @@
 package ysf;
 
-import ysf.solituon.DecodeWays;
-import ysf.solituon.JumpGame;
-import ysf.solituon.UniquePaths;
+import ysf.solituon.dynamic.JumpGame;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

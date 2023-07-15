@@ -1,4 +1,4 @@
-package ysf.solituon;
+package ysf.solituon.dynamic;
 
 import java.util.HashMap;
 import java.util.HashSet;

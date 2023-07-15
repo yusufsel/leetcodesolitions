@@ -1,4 +1,4 @@
-package ysf.solituon;
+package ysf.solituon.dynamic;
 
 
 public class ClimbingStairs {
