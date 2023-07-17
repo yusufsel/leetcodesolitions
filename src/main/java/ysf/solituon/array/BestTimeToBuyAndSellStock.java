@@ -1,6 +1,5 @@
 package ysf.solituon.array;
 
-import java.util.Stack;
 
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
