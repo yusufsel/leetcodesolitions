@@ -1,7 +1,6 @@
 package ysf;
 
-import ysf.solituon.array.TwoSum;
-import ysf.solituon.dynamic.JumpGame;
+import ysf.solituon.array.BestTimeToBuyAndSellStock;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -13,7 +12,7 @@ public class Main {
 
         LocalDateTime t1 = LocalDateTime.now();
 
-        System.out.println(new TwoSum().twoSum(new int[]{3,2,1,0,4},7)[1]);
+        System.out.println(new BestTimeToBuyAndSellStock().maxProfit(new int[]{7,1,5,3,6,4}));
 
         System.out.println(ChronoUnit.SECONDS.between(t1, LocalDateTime.now()));
 
