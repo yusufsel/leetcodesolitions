@@ -1,8 +1,6 @@
 package ysf.solituon.array;
 
-import java.util.Arrays;
-
-public class ProductofArrayExceptSelf {
+public class ProductofArrayExceptSelfNotMe {
     public int[] productExceptSelf(int[] nums) {
 
         int[] rt = new int[nums.length];

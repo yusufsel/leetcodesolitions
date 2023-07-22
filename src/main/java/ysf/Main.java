@@ -1,6 +1,8 @@
 package ysf;
 
-import ysf.solituon.array.BestTimeToBuyAndSellStock;
+import ysf.solituon.array.FindMinimumInRotatedSortedArray;
+import ysf.solituon.array.MaximumProductSubarray;
+import ysf.solituon.array.MaximumSubarrayNotMe;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -12,9 +14,12 @@ public class Main {
 
         LocalDateTime t1 = LocalDateTime.now();
 
-        System.out.println(new BestTimeToBuyAndSellStock().maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out.println(new FindMinimumInRotatedSortedArray().findMin(new int[]{3,4,5,1,2}));
 
         System.out.println(ChronoUnit.SECONDS.between(t1, LocalDateTime.now()));
 
     }
 }
+
+//  3,-1,4
+//  +  - -
