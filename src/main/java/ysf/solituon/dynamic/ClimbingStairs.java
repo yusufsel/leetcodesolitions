@@ -21,4 +21,19 @@ public class ClimbingStairs {
     }
 
 
+
+    public int climbStairs2(int n) {
+        int nMinus1Value=0;
+        int nValue=1;
+
+        for (int i=1;i<=n;i++) {
+            int temp = nValue;
+            nValue += nMinus1Value;
+            nMinus1Value = temp;
+        }
+
+        return nValue;
+    }
+
+
 }

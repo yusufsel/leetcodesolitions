@@ -3,6 +3,7 @@ package ysf;
 import ysf.solituon.array.FindMinimumInRotatedSortedArray;
 import ysf.solituon.array.MaximumProductSubarray;
 import ysf.solituon.array.MaximumSubarrayNotMe;
+import ysf.solituon.dynamic.ClimbingStairs;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -14,7 +15,8 @@ public class Main {
 
         LocalDateTime t1 = LocalDateTime.now();
 
-        System.out.println(new FindMinimumInRotatedSortedArray().findMin(new int[]{3,4,5,1,2}));
+        for(int i = 1;i<9999999;i++)
+        System.out.println(new ClimbingStairs().climbStairs2(i));
 
         System.out.println(ChronoUnit.SECONDS.between(t1, LocalDateTime.now()));
 
